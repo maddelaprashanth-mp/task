@@ -236,7 +236,7 @@ button {
   width: 1097px;
 }
 
-.two-box-para2-button {
+.two-box-para2-button-div {
   display: flex;
   margin-top: -80px;
   margin-left: 1250px;
@@ -247,6 +247,10 @@ button {
   justify-content: center;
   display: flex;
   background-color: #413ef7;
+  color: white;
+}
+
+.two-box-para2-button {
   color: white;
 }
 
