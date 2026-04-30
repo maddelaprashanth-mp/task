@@ -1,0 +1,242 @@
+* {
+  margin: 0px;
+}
+
+header {
+  border-bottom: 1px solid gray;
+  padding: 5px 30px;
+  height: 50px;
+  background-color: #eee9e9;
+  position: sticky;
+  top: 0px;
+  /* margin: 10px; */
+  /* margin-right: 0px;
+  margin-left: 0px; */
+  font-family: "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: calc(20px);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+
+.tip {
+  border: 0.6px solid rgb(163, 162, 162);
+  margin-top: -2px;
+  width: 80px;
+  height: 25px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+}
+.center-content {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 span {
+  color: rgb(185, 187, 187);
+}
+
+button {
+  background-color: transparent;
+}
+
+.button-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 50px;
+}
+
+.let-1 {
+  border-radius: 50px;
+  background-color: #413ef7;
+  border: 0px;
+  color: white;
+  padding: 10px 25px;
+}
+
+.let {
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 10px 25px;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.image-1 {
+  border-radius: 10px;
+  background-image: url("page\ 2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline;
+  display: flex;
+  width: 30rem;
+  height: 30rem;
+  margin-top: 50px;
+  background-color: red;
+}
+
+.image-2 {
+  border-radius: 10px;
+  background-image: url("istockphoto-2149922105-612x612.jpg");
+  background-size: cover;
+  background-position: center;
+  display: inline;
+  display: flex;
+  width: 70rem;
+  height: 30rem;
+  margin-top: 50px;
+  background-color: red;
+}
+
+.tag {
+  margin-bottom: -30px;
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+}
+
+.my-offerings {
+  color: rgb(185, 187, 187);
+}
+
+.sub-tag {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bggg {
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 80px;
+}
+.gg {
+  border-radius: 10px;
+  border: 0.5px solid gray;
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+  justify-content: space-between;
+  width: 20rem;
+  height: 20rem;
+}
+
+.circle {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #f0f0ff;
+}
+
+.k {
+  font-size: 30px;
+  margin-left: -200px;
+  margin-top: 200px;
+  height: 10rem;
+  width: 20rem;
+}
+
+.bb {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.two-main {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  /* background-color: #413ef7; */
+}
+
+.two {
+  font-size: 45px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 22rem;
+  height: 20rem;
+  /* background-color: red; */
+}
+
+.co {
+  color: rgb(185, 187, 187);
+}
+
+.two2 {
+  font-size: 25px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  width: 22rem;
+  height: 20rem;
+  /* background-color: red; */
+}
+
+.og {
+  border: none;
+  color: white;
+  background-color: #413ef7;
+  border-radius: 50px;
+  padding: 20px 10px;
+  height: 10px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 330px;
+  margin-left: -450px;
+}
+
+.two1 {
+  width: 15rem;
+  height: 20rem;
+  visibility: hidden;
+}
+
+.du {
+  height: 100vh;
+}
