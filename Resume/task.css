@@ -39,7 +39,7 @@ a:hover {
   color: blue;
 }
 
-.tip {
+.Search {
   border: 0.6px solid rgb(163, 162, 162);
   margin-top: -2px;
   width: 80px;
@@ -48,6 +48,7 @@ a:hover {
 }
 
 h1 {
+  margin-top: 30px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 500;
   font-size: 60px;
@@ -66,14 +67,15 @@ button {
   background-color: transparent;
 }
 
-.button-2 {
+.botton-container {
   display: flex;
   justify-content: center;
   gap: 20px;
   border-radius: 50px;
+  margin-top: 20px;
 }
 
-.let-1 {
+.LetsTalk {
   border-radius: 50px;
   background-color: #413ef7;
   border: 0px;
@@ -81,21 +83,23 @@ button {
   padding: 10px 25px;
 }
 
-.let {
+.OurServices {
   border: 1px solid black;
   border-radius: 50px;
   padding: 10px 25px;
 }
 
-.bg {
+.image-container {
   display: flex;
   justify-content: center;
   gap: 15px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
 }
 
 .image-1 {
   border-radius: 10px;
-  background-image: url("page\ 2.jpg");
+  background-image: url("images/page\ 2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -109,7 +113,7 @@ button {
 
 .image-2 {
   border-radius: 10px;
-  background-image: url("istockphoto-2149922105-612x612.jpg");
+  background-image: url("images/istockphoto-2149922105-612x612.jpg");
   background-size: cover;
   background-position: center;
   display: inline;
@@ -120,13 +124,13 @@ button {
   background-color: red;
 }
 
-.tag {
+.explore-tag {
   margin-bottom: -30px;
   display: flex;
   justify-content: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 200;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .my-offerings {
@@ -134,20 +138,32 @@ button {
 }
 
 .sub-tag {
+  font-size: 30px;
   display: flex;
   justify-content: center;
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.bggg {
+.container1 {
   margin-bottom: 50px;
   flex-wrap: wrap;
   justify-content: center;
   display: flex;
   gap: 80px;
 }
-.gg {
+
+.container2 {
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 80px;
+}
+
+.sub-contaner1 {
+  margin-left: 50px;
+  margin-right: 50px;
   border-radius: 10px;
   border: 0.5px solid gray;
   padding: 50px;
@@ -158,7 +174,7 @@ button {
   height: 20rem;
 }
 
-.circle {
+.sub-contaner-circle {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
@@ -168,7 +184,9 @@ button {
   background-color: #f0f0ff;
 }
 
-.k {
+.sub-contaner-heading {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
   font-size: 30px;
   margin-left: -200px;
   margin-top: 200px;
@@ -176,80 +194,15 @@ button {
   width: 20rem;
 }
 
-.bb {
+.sub-contaner-para {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  /* margin-left: 50px; */
+  margin-right: 50px;
   margin-top: 20px;
   font-size: 20px;
 }
 
-.two-main {
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-  /* background-color: #413ef7; */
-}
-
-.two {
-  font-size: 45px;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  width: 22rem;
-  height: 20rem;
-  /* background-color: red; */
-}
-
-.co {
-  color: rgb(185, 187, 187);
-}
-
-.two2 {
-  font-size: 25px;
-  padding: 50px;
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
-  width: 22rem;
-  height: 20rem;
-  /* background-color: red; */
-}
-
-.og {
-  border: none;
-  color: white;
-  background-color: #413ef7;
-  border-radius: 50px;
-  padding: 20px 10px;
-  height: 10px;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 330px;
-  margin-left: -450px;
-}
-
-.two1 {
-  /* width: 15rem;
-  height: 20rem; */
-  visibility: none;
-}
-
-.crebg {
-  display: flex;
-  justify-content: center;
-  gap: 80px;
-  /* background-color: red; */
-}
-
-.cre {
-  display: flex;
-  background-color: #0400f1;
-  height: 200px;
-  width: 42rem;
-}
-
-.du {
+.empty-space {
   height: 100vh;
 }
