@@ -213,6 +213,47 @@ button {
   font-size: 20px;
 }
 
+.full-two-box-para {
+  background-color: aqua;
+  display: flex;
+}
+
+.two-box-para {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 80px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #413ef7;
+  height: 350px;
+  width: 1097px;
+}
+
+.two-box-para2 {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 30px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #413ef7;
+  height: 350px;
+  width: 1097px;
+}
+
+.two-box-para2-button {
+    /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: #fc0000;
+  height: 350px;
+  width: 1097px;
+}
+
+
+
+
+
+
 .empty-space {
   height: 100vh;
 }
