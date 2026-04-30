@@ -8,10 +8,7 @@ header {
   height: 50px;
   background-color: #eee9e9;
   position: sticky;
-  top: 0px;
-  /* margin: 10px; */
-  /* margin-right: 0px;
-  margin-left: 0px; */
+  top: 5px;
   font-family: "Arial Narrow Bold", sans-serif;
   display: flex;
   justify-content: center;
@@ -215,9 +212,9 @@ button {
 }
 
 .two-box-para {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 80px;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: #413ef7; */
@@ -226,9 +223,9 @@ button {
 }
 
 .two-box-para2 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 30px;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   /* background-color: #413ef7; */
@@ -256,13 +253,8 @@ button {
 }
 
 .Experiences {
-   color: rgb(185, 187, 187);
+  color: rgb(185, 187, 187);
 }
-
-
-
-
-
 
 .empty-space {
   height: 100vh;
