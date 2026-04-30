@@ -39,7 +39,6 @@ a:hover {
   color: blue;
 }
 
-
 .tip {
   border: 0.6px solid rgb(163, 162, 162);
   margin-top: -2px;
@@ -47,7 +46,6 @@ a:hover {
   height: 25px;
   border-radius: 50px;
 }
-
 
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -233,9 +231,23 @@ button {
 }
 
 .two1 {
-  width: 15rem;
-  height: 20rem;
-  visibility: hidden;
+  /* width: 15rem;
+  height: 20rem; */
+  visibility: none;
+}
+
+.crebg {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  /* background-color: red; */
+}
+
+.cre {
+  display: flex;
+  background-color: #0400f1;
+  height: 200px;
+  width: 42rem;
 }
 
 .du {
