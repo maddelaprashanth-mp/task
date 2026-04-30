@@ -159,7 +159,6 @@ button {
   justify-content: center;
   display: flex;
   justify-content: space-between;
-  /* gap: 60px; */
 }
 
 .container2 {
@@ -168,12 +167,9 @@ button {
   justify-content: center;
   display: flex;
   justify-content: space-between;
-  /* gap: 60px; */
 }
 
 .sub-contaner1 {
-  /* margin-left: 50px;
-  margin-right: 50px; */
   border-radius: 10px;
   border: 0.5px solid gray;
   padding: 50px;
@@ -214,7 +210,7 @@ button {
 }
 
 .full-two-box-para {
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
 }
 
@@ -224,7 +220,7 @@ button {
     display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #413ef7;
+  /* background-color: #413ef7; */
   height: 350px;
   width: 1097px;
 }
@@ -235,18 +231,27 @@ button {
     display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #413ef7;
+  /* background-color: #413ef7; */
   height: 350px;
   width: 1097px;
 }
 
 .two-box-para2-button {
-    /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  background-color: #fc0000;
-  height: 350px;
-  width: 1097px;
+  display: flex;
+  margin-top: -80px;
+  margin-left: 1250px;
+  width: 8rem;
+  height: 3rem;
+  border-radius: 10%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: #413ef7;
+  color: white;
+}
+
+.Experiences {
+   color: rgb(185, 187, 187);
 }
 
 
