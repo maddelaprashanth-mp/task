@@ -170,7 +170,7 @@ button {
   border-radius: 10px;
   border: 0.5px solid gray;
   padding: 50px;
-  justify-content: center;
+  /* justify-content: center; */
   display: flex;
   /* justify-content: space-between; */
   width: 20rem;
@@ -181,9 +181,9 @@ button {
   width: 8rem;
   height: 8rem;
   border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  /* display: flex; */
   background-color: #f0f0ff;
 }
 

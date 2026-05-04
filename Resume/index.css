@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0px;
+}
+
+body {
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+}
+
+.full-body {
+  height: 500vh;
+  /* background-color: black; */
+  outline: 1px solid yellow;
+  width: 95vw;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(255, 254, 243);
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 300px;
+  display: flex;
+  gap: calc(50px);
+}
+
+.hov {
+  text-decoration: none;
+  color: black;
+}
+
+.Hire-Me {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.container {
+    padding: 0px 10px 0px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(255, 254, 243); */
+    height: 800px;
+}
+
+.text-container {
+    /* background-color: rgb(245, 121, 121); */
+    height: 700px;
+    width: 45vw;
+}
+
+.Designer {
+    /* background-color: brown; */
+    font-size: 100px;
+}
+
+.iam {
+    font-size: 60px;
+}
+
+.designer-color {
+    color: #fdd839;
+}
+
+.para1 {
+    /* background-color: aquamarine; */
+    font-size: 30px;
+}
+
+.View-My-Work {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 15px 30px 15px 30px;
+}
+
+.arrow {
+    word-spacing: 30px;
+}
+
+.image-container {
+    background-image: url("/images/img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: bisque; */
+    height: 700px;
+    width: 50vw;
+}
