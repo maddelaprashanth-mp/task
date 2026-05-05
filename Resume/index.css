@@ -171,7 +171,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #ffd000;
+  background-color: #fafafa;
   height: 500px;
 }
 
@@ -182,33 +182,103 @@ h1 {
   flex-direction: column;
   width: 250px;
   height: 300px;
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 
 .sub-box-1 {
   /* display: flex;
   justify-content: center; */
   border-radius: 10px;
-  background-color: #ffd000;
+  background-color: #f9ce21;
   width: 100px;
   height: 100px;
 }
 
 .sub-box-2 {
-  background-color: aliceblue;
+  padding-top: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* background-color: aliceblue; */
   width: 230px;
   height: 100px;
   border-radius: 10px;
 }
 
+.Branding {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .box-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
   width: 250px;
   height: 300px;
-  background-color: rgb(0, 92, 92);
+  /* background-color: aqua; */
+}
+
+.sub-box-3 {
+  /* display: flex;
+  justify-content: center; */
+  border-radius: 10px;
+  background-color: #eae9e9;
+  width: 100px;
+  height: 100px;
+}
+
+.sub-box-4 {
+  padding-top: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* background-color: aliceblue; */
+  width: 230px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.Web-Design {
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .box-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
   width: 250px;
   height: 300px;
-  background-color: rgb(19, 27, 27);
+  /* background-color: aqua; */
+}
+
+.sub-box-5 {
+  /* display: flex;
+  justify-content: center; */
+  border-radius: 10px;
+  background-color: #f9ce21;
+  width: 100px;
+  height: 100px;
+}
+
+.sub-box-6 {
+  padding-top: 10px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  /* background-color: aliceblue; */
+  width: 230px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.Print-Design {
+  font-weight: 600;
+  font-size: 20px;
 }
