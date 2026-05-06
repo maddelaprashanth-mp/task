@@ -13,7 +13,7 @@ body {
 }
 
 .full-body {
-  height: 500vh;
+  /* height: 100vh; */
   /* background-color: black; */
   /* outline: 1px solid yellow; */
   width: 95vw;
@@ -32,6 +32,15 @@ header {
   align-items: center;
 }
 
+.logo {
+  width: 100px;
+  height: 60px;
+  /* background-color: aqua; */
+  background-image: url("/images/logo.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
 nav {
   align-items: center;
   justify-content: space-between;
@@ -42,11 +51,11 @@ nav {
 
 .hov {
   text-decoration: none;
-  color: black;
+  color: #18191b;
 }
 
 .Hire-Me {
-  background-color: rgb(0, 0, 0);
+  background-color: #18191b;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -56,11 +65,15 @@ h1 {
   border-radius: 10px;
   text-align: center;
   font-size: 100px;
-  box-shadow: 0px 0px 10px rgb(54, 54, 0);
+  box-shadow: 0px 0px 10px #ffffff;
+}
+
+h1:hover {
+  box-shadow: 0px 0px 5px #18191b;
 }
 
 .container {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #18191b;
   outline: 50px;
   padding: 0px 10px 0px 10px;
   align-items: center;
@@ -96,7 +109,7 @@ h1 {
 }
 
 .View-My-Work {
-  background-color: black;
+  background-color: #18191b;
   color: white;
   border-radius: 8px;
   padding: 15px 30px 15px 30px;
@@ -105,7 +118,20 @@ h1 {
 
 .View-My-Work:hover {
   background-color: #ffd000;
-  color: black;
+  color: #18191b;
+}
+
+.Download-CV {
+  background-color: #18191b;
+  color: white;
+  border-radius: 8px;
+  padding: 15px 30px 15px 30px;
+  box-shadow: 0px 0px 10px;
+}
+
+.Download-CV:hover {
+  background-color: #ffd000;
+  color: #18191b;
 }
 
 .arrow {
@@ -123,7 +149,7 @@ h1 {
 }
 
 .container-2 {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #18191b;
   outline: 50px;
   padding: 0px 10px 0px 10px;
   align-items: center;

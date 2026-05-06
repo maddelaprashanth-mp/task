@@ -1,0 +1,375 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0px;
+}
+
+body {
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.full-body {
+  /* background-color: black; */
+  /* outline: 1px solid yellow; */
+  width: 95vw;
+}
+
+.sticky-2 {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 60px;
+  /* background-color: aqua; */
+  background-image: url("/images/logo.png");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 300px;
+  display: flex;
+  gap: calc(50px);
+}
+
+.hov {
+  text-decoration: none;
+  color: black;
+}
+
+.Hire-Me {
+  background-color:#18191b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.My-Portfolio {
+  padding: 0px 0px 0px 20px;
+  font-size: 50px;
+}
+
+.buttons-4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.button-1 {
+  font-size: 15px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+}
+
+.button-1:hover {
+  background-color: black;
+  color: white;
+}
+
+.boxes-3-1 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  /* background-color: aqua; */
+  height: 500px;
+}
+
+.sub-box-1 {
+  /* background-color: aquamarine; */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-1 {
+    background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+    /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-2 {
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.sub-box-2 {
+  /* background-color: rgb(22, 46, 38); */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-3 {
+        background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-4 {
+
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.sub-box-3 {
+  /* background-color: aquamarine; */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-5 {
+        background-image: url("images/the\ heaven.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-6 {
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.boxes-3-2 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  /* background-color: aqua; */
+  height: 500px;
+}
+
+.sub-box-1 {
+  /* background-color: aquamarine; */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-1 {
+    background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+    /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-2 {
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.sub-box-2 {
+  /* background-color: rgb(22, 46, 38); */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-3 {
+        background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-4 {
+
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.sub-box-3 {
+  /* background-color: aquamarine; */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-5 {
+        background-image: url("images/the\ heaven.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-6 {
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.boxes-3-3 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  /* background-color: aqua; */
+  height: 500px;
+}
+
+.sub-box-1 {
+  /* background-color: aquamarine; */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-1 {
+    background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: center;
+    /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-2 {
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.sub-box-2 {
+  /* background-color: rgb(22, 46, 38); */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-3 {
+        background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-4 {
+
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.sub-box-3 {
+  /* background-color: aquamarine; */
+  height: 450px;
+  width: 400px;
+}
+
+.child-box-5 {
+        background-image: url("images/the\ heaven.jpg");
+  background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  /* background-color: bisque; */
+  height: 350px;
+}
+
+.brand-name {
+  font-size: 20px;
+}
+
+.child-box-6 {
+  /* background-color: rgb(116, 83, 42); */
+  height: 100px;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #18191b;
+    height: 250px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: antiquewhite; */
+    height: 150px;
+    width: 100vw;
+}
+
+.icon-box {
+    background-image: url("images/telegram-logo.png");
+    /* background-color: blue; */
+    height: 50px;
+    width: 50px;
+}
+
+.para-2 {
+    color: white;
+}
+
+.project {
+    font-size: 30px;
+}
+
+.Contact-Me {
+    font-weight: bolder;
+    background-color: #ffd000;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    color: black;
+} 
