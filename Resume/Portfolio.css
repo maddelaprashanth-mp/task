@@ -60,6 +60,10 @@ nav {
   border-radius: 5px;
 }
 
+.Hire-Me:hover{
+background-color: #ffffff;
+}
+
 .My-Portfolio {
   padding: 0px 0px 0px 20px;
   font-size: 50px;
@@ -375,3 +379,8 @@ nav {
   border-radius: 10px;
   color: black;
 }
+
+.Contact-Me:hover{
+background-color: #ffffff;
+}
+

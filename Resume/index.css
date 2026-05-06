@@ -65,6 +65,10 @@ nav {
   border-radius: 5px;
 }
 
+.Hire-Me:hover{
+background-color: #ffffff;
+}
+
 h1 {
   border-radius: 10px;
   text-align: center;
@@ -140,6 +144,45 @@ h1 {
 
 .iam {
   font-size: 60px;
+}
+
+.iam {
+  /* Set a large gradient background */
+  background: linear-gradient(
+    to right,
+    #ffd000,
+    #f8a15f,
+    #4d89ff,
+    #cfda36,
+    #ff7e5f
+  );
+  background-size: 200% auto; /* Make background wider than the text */
+
+  /* Clip background to text and make text transparent */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  /* Apply the animation */
+  animation: shift-gradient 5s linear infinite;
+
+  /* Font styling */
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* Keyframes to move the background position */
+@keyframes shift-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .designer-color {
