@@ -212,12 +212,20 @@ h1:hover {
 }
 
 .sub-box-1 {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background-color: #f9ce21;
   width: 100px;
   height: 100px;
+}
+
+.img {
+  background-image: url("/images/social-media.png");
+  background-size: cover;
+  height: 80px;
+  width: 80px;
 }
 
 .sub-box-2 {
@@ -248,12 +256,20 @@ h1:hover {
 }
 
 .sub-box-3 {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background-color: #eae9e9;
   width: 100px;
   height: 100px;
+}
+
+.img-2 {
+  background-image: url("/images/Broucher.png");
+  background-size: cover;
+  height: 80px;
+  width: 80px;
 }
 
 .sub-box-4 {
@@ -284,12 +300,20 @@ h1:hover {
 }
 
 .sub-box-5 {
-  /* display: flex;
-  justify-content: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background-color: #f9ce21;
   width: 100px;
   height: 100px;
+}
+
+.img-3 {
+    background-image: url("/images/print.png");
+  background-size: cover;
+  height: 80px;
+  width: 80px;
 }
 
 .sub-box-6 {
