@@ -22,11 +22,11 @@ body {
 .sticky {
   position: sticky;
   top: 0px;
-  background-color: rgb(255, 255, 255);
+  background-color: #18191b;
 }
 
 header {
-  padding: 20px;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,7 +35,7 @@ header {
 .logo {
   width: 100px;
   height: 60px;
-  /* background-color: aqua; */
+  /* background-color: black; */
   background-image: url("/images/logo.png");
   background-size: cover;
   /* background-repeat: no-repeat; */
@@ -51,7 +51,7 @@ nav {
 
 .hov {
   text-decoration: none;
-  color: #18191b;
+  color: #ffffff;
 }
 
 .Hire-Me {
@@ -70,6 +70,45 @@ h1 {
 
 h1:hover {
   box-shadow: 0px 0px 5px #18191b;
+}
+
+h1 {
+  /* Set a large gradient background */
+  background: linear-gradient(
+    to right,
+    #ffd000,
+    #f8a15f,
+    #4d89ff,
+    #cfda36,
+    #ff7e5f
+  );
+  background-size: 200% auto; /* Make background wider than the text */
+
+  /* Clip background to text and make text transparent */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  /* Apply the animation */
+  animation: shift-gradient 5s linear infinite;
+
+  /* Font styling */
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* Keyframes to move the background position */
+@keyframes shift-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .container {
@@ -310,7 +349,7 @@ h1:hover {
 }
 
 .img-3 {
-    background-image: url("/images/print.png");
+  background-image: url("/images/print.png");
   background-size: cover;
   height: 80px;
   width: 80px;
