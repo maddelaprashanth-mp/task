@@ -54,7 +54,7 @@ nav {
 }
 
 .Hire-Me {
-  background-color:#18191b;
+  background-color: #18191b;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -100,11 +100,11 @@ nav {
 }
 
 .child-box-1 {
-    background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
+  background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
-    /* background-color: bisque; */
+  /* background-color: bisque; */
   height: 350px;
 }
 
@@ -124,10 +124,10 @@ nav {
 }
 
 .child-box-3 {
-        background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
+  background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
   background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
   /* background-color: bisque; */
   height: 350px;
 }
@@ -137,9 +137,10 @@ nav {
 }
 
 .child-box-4 {
+  height: 100px;
 
   /* background-color: rgb(116, 83, 42); */
-  height: 100px;
+  
 }
 
 .sub-box-3 {
@@ -149,10 +150,10 @@ nav {
 }
 
 .child-box-5 {
-        background-image: url("images/the\ heaven.jpg");
+  background-image: url("images/the\ heaven.jpg");
   background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
   /* background-color: bisque; */
   height: 350px;
 }
@@ -183,11 +184,11 @@ nav {
 }
 
 .child-box-1 {
-    background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
+  background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
-    /* background-color: bisque; */
+  /* background-color: bisque; */
   height: 350px;
 }
 
@@ -207,10 +208,10 @@ nav {
 }
 
 .child-box-3 {
-        background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
+  background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
   background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
   /* background-color: bisque; */
   height: 350px;
 }
@@ -221,8 +222,10 @@ nav {
 
 .child-box-4 {
 
-  /* background-color: rgb(116, 83, 42); */
+  /* background-color: rgb(116, 83, 42);*/
   height: 100px;
+
+
 }
 
 .sub-box-3 {
@@ -232,10 +235,10 @@ nav {
 }
 
 .child-box-5 {
-        background-image: url("images/the\ heaven.jpg");
+  background-image: url("images/the\ heaven.jpg");
   background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
   /* background-color: bisque; */
   height: 350px;
 }
@@ -266,11 +269,11 @@ nav {
 }
 
 .child-box-1 {
-    background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
+  background-image: url("images/SAIL\ INTO\ Discover\ the\ world\'s\ most\ breathtaking.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-y: center;
-    /* background-color: bisque; */
+  /* background-color: bisque; */
   height: 350px;
 }
 
@@ -290,10 +293,10 @@ nav {
 }
 
 .child-box-3 {
-        background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
+  background-image: url("images/REAL\ ESTATE\ POSTER.jpg");
   background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
   /* background-color: bisque; */
   height: 350px;
 }
@@ -303,9 +306,8 @@ nav {
 }
 
 .child-box-4 {
-
-  /* background-color: rgb(116, 83, 42); */
   height: 100px;
+  /* background-color: rgb(116, 83, 42); */
 }
 
 .sub-box-3 {
@@ -315,10 +317,10 @@ nav {
 }
 
 .child-box-5 {
-        background-image: url("images/the\ heaven.jpg");
+  background-image: url("images/the\ heaven.jpg");
   background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
   /* background-color: bisque; */
   height: 350px;
 }
@@ -333,43 +335,43 @@ nav {
 }
 
 .foot {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    background-color: #18191b;
-    height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  background-color: #18191b;
+  height: 250px;
 }
 
 .box {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* background-color: antiquewhite; */
-    height: 150px;
-    width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: antiquewhite; */
+  height: 150px;
+  width: 100vw;
 }
 
 .icon-box {
-    background-image: url("images/telegram-logo.png");
-    /* background-color: blue; */
-    height: 50px;
-    width: 50px;
+  background-image: url("images/telegram-logo.png");
+  /* background-color: blue; */
+  height: 50px;
+  width: 50px;
 }
 
 .para-2 {
-    color: white;
+  color: white;
 }
 
 .project {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .Contact-Me {
-    font-weight: bolder;
-    background-color: #ffd000;
-    padding: 15px 30px 15px 30px;
-    border-radius: 10px;
-    color: black;
-} 
+  font-weight: bolder;
+  background-color: #ffd000;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  color: black;
+}
