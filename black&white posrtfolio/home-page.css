@@ -1,0 +1,204 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #0e0e0e;
+  color: #fbc104;
+}
+
+.top-bar {
+    position: sticky;
+    top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px 0px 30px;
+  background-color: #0e0e0e;
+}
+
+.Maddela {
+  color: white;
+}
+
+.Prashanth {
+  color: #fbc104;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-Hire-me {
+  background-color: #fbc104;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.section-1 {
+  display: flex;
+  align-items: center;
+  margin: 50px 0px 0px 30px;
+  height: 500px;
+}
+
+.Hello {
+  color: #fbc104;
+  font-size: 10px;
+}
+
+h1 {
+  font-family: Times, "Times New Roman", serif;
+  font-size: 40px;
+  color: white;
+
+  margin-top: -1px;
+}
+
+.meaningful {
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.btn-VIEW-MY-WORK {
+  margin: 15px 0px 0px 0px;
+  background-color: #fbc104;
+  padding: 10px 10px 10px 10px;
+  /* border-radius: 10px; */
+  border: 0px;
+  font-weight: 600;
+}
+
+.section-2 {
+  display: flex;
+  align-items: center;
+  padding: 50px 0px 0px 30px;
+  height: 300px;
+  color: black;
+  background-color: white;
+}
+
+.What-I-Do {
+  color: #fbc104;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: Times, "Times New Roman", serif;
+  font-size: 35px;
+}
+
+.beautiful {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgb(255, 255, 255);
+  padding: 0px 30px 0px 30px;
+  gap: 10px;
+  height: 300px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  flex-direction:column;
+  /* padding: 50px 0px 0px 0px; */
+  /* background-color: #fbc104; */
+  color: rgb(255, 255, 255);
+}
+
+.sub-box-1 {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+
+.sub-box-text-1 {
+    color: black;
+    text-align: center;
+     /* background-color: aqua; */
+     height: 100px;
+}
+
+.sub-box-2 {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+
+.sub-box-text-2 {
+    color: black;
+    text-align: center;
+     /* background-color: aqua; */
+     height: 100px;
+}
+
+.sub-box-3 {
+  background-color: aqua;
+  height: 100px;
+  width: 100px;
+}
+
+.sub-box-text-3 {
+    color: black;
+    text-align: center;
+     /* background-color: aqua; */
+     height: 100px;
+}
+
+.Ready-to-Work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #fbc104;
+    color: white;
+}
+
+.Ready {
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.btn-Get-in-Touch {
+  margin: 15px 0px 0px 0px;
+  background-color: black;
+  color: #fbc104;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  border: 0px;
+  font-weight: 600;
+}
+
+footer {
+   
+    line-height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 200px;
+}
+
+
+.Copyright {
+ opacity: 0.5;
+}
