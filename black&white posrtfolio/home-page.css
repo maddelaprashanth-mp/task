@@ -15,10 +15,6 @@ body {
   justify-content: space-between;
   padding: 5px 30px 0px 30px;
   background-color: #0e0e0e;
-  background-image: url("images-img/Male\ Character\ Vector\ Illustration.png");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: ;
 }
 
 .Maddela {
@@ -52,6 +48,10 @@ a {
   align-items: center;
   margin: 50px 0px 0px 30px;
   height: 500px;
+    background-image: url("images-img/Male\ Character\ Vector\ Illustration.png");
+background-size: contain;
+background-position: right;
+background-repeat: no-repeat;
 }
 
 .Hello {
