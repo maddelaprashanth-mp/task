@@ -44,9 +44,11 @@ a {
 }
 
 .section-1 {
+  background-color: #0e0e0e;
   display: flex;
   align-items: center;
-  margin: 50px 0px 0px 30px;
+  margin: 50px 0px 0px 0px;
+  padding:0px 0px 0px 30px ;
   height: 500px;
     background-image: url("images-img/Male\ Character\ Vector\ Illustration.png");
 background-size: contain;
