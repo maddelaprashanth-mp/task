@@ -185,16 +185,21 @@ h2 {
 }
 
 .Ready {
+  color: #0e0e0e;
     margin: 0px;
     font-size: 40px;
     font-weight: 600;
 }
 
+.collaborate {
+  color: #0e0e0e;
+}
+
 .btn-Get-in-Touch {
   margin: 15px 0px 0px 0px;
   background-color: black;
-  color: #fbc104;
-  padding: 10px 10px 10px 10px;
+  color: #ffffff;
+  padding: 20px 30px 20px 30px;
   border-radius: 10px;
   border: 0px;
   font-weight: 600;
