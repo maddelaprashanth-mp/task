@@ -168,7 +168,8 @@ h2 {
 
 .box {
   border-radius: 15px;
-  border: 2px solid #0e0e0e;
+  /* border: 2px solid #c4c4c4; */
+   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 
   display: flex;
@@ -181,8 +182,10 @@ h2 {
 }
 
 .box:hover {
+  border: 0px;
   transform: translateY(-8px);
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+ 
+    box-shadow: 0px 10px 30px #fbc104;
 }
 
 .sub-box-1 {
