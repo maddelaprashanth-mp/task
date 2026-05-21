@@ -76,7 +76,7 @@ a:hover {
   margin: 50px 0px 0px 0px;
   padding: 0px 0px 0px 30px;
   height: 500px;
-  background-image: url("images-img/Male\\ Character\\ Vector\\ Illustration.png");
+  background-image: url("images-img/Male\ Character\ Vector\ Illustration.png");
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
@@ -136,6 +136,7 @@ h1 {
 }
 
 .What-I-Do {
+  font-size: 50px;
   color: #fbc104;
   font-weight: 600;
   margin-bottom: 10px;
@@ -149,6 +150,7 @@ h2 {
 }
 
 .beautiful {
+    margin-bottom: 100px;
   font-size: 15px;
   line-height: 28px;
 }
@@ -200,7 +202,7 @@ h2 {
 }
 
 .sub-box-2 {
-  background-image: url("images-img/Print\\ Design.png");
+  background-image: url("images-img/Print\ Design.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
