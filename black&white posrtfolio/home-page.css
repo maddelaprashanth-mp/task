@@ -1,28 +1,38 @@
-body {
-  margin: 0px;
-  padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* background-color: #0e0e0e; */
   color: #fbc104;
 }
 
-.black { 
+.black {
   background-color: #0e0e0e;
 }
 
+/* TOP BAR */
+
 .top-bar {
-    position: sticky;
-    top: 0px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 30px 0px 30px;
+
+  padding: 20px 30px;
+
   background-color: #0e0e0e;
 }
 
 .Maddela {
   color: white;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .Prashanth {
@@ -42,191 +52,319 @@ a {
 
 .btn-Hire-me {
   background-color: #fbc104;
-  padding: 5px 10px 5px 10px;
+  padding: 8px 14px;
   border-radius: 5px;
-  border: 0px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
 }
 
+/* HERO SECTION */
+
 .section-1 {
-  background-color: #0e0e0e;
   display: flex;
   align-items: center;
-  margin: 50px 0px 0px 0px;
-  padding:0px 0px 0px 30px ;
-  height: 500px;
-    background-image: url("images-img/Male\ Character\ Vector\ Illustration.png");
-background-size: contain;
-background-position: right;
-background-repeat: no-repeat;
+
+  min-height: 100vh;
+
+  padding: 0 30px;
+
+  background-color: #0e0e0e;
+
+  background-image: url("images-img/Male Character Vector Illustration.png");
+  background-size: contain;
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  max-width: 600px;
 }
 
 .Hello {
   color: #fbc104;
-  font-size: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
 }
 
 h1 {
   font-family: Times, "Times New Roman", serif;
-  font-size: 40px;
+  font-size: 60px;
+  line-height: 1.1;
   color: white;
 
-  margin-top: -1px;
+  margin: 15px 0;
 }
 
 .meaningful {
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
 }
 
 .btn-VIEW-MY-WORK {
-  margin: 15px 0px 0px 0px;
+  margin-top: 25px;
+
   background-color: #fbc104;
-  padding: 10px 10px 10px 10px;
-  /* border-radius: 10px; */
-  border: 0px;
+
+  padding: 14px 22px;
+
+  border: 0;
+
   font-weight: 600;
+  cursor: pointer;
 }
+
+/* SECTION 2 */
 
 .section-2 {
   display: flex;
   align-items: center;
-  padding: 50px 0px 0px 30px;
-  height: 300px;
-  color: black;
+
+  min-height: 350px;
+
+  padding: 50px 30px;
+
   background-color: white;
+  color: black;
 }
 
 .What-I-Do {
   color: #fbc104;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 h2 {
   font-family: Times, "Times New Roman", serif;
-  font-size: 35px;
+  font-size: 45px;
+  margin-bottom: 20px;
 }
 
 .beautiful {
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 28px;
 }
+
+/* GRID */
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  background-color: rgb(255, 255, 255);
-  padding: 0px 30px 0px 30px;
-  gap: 10px;
-  height: 300px;
-  margin-bottom: 50px;
+
+  gap: 20px;
+
+  padding: 0 30px 50px;
+
+  background-color: white;
 }
 
 .box {
-  border-radius: 10px;
   border: 2px solid #0e0e0e;
+  border-radius: 10px;
+
   display: flex;
-  justify-content: center;
-  gap: 40px;
+  flex-direction: column;
   align-items: center;
-  flex-direction:column;
-  /* padding: 50px 0px 0px 0px; */
-  /* background-color: #fbc104; */
-  color: rgb(255, 255, 255);
+  justify-content: center;
+
+  padding: 30px 20px;
+
+  text-align: center;
+}
+
+.sub-box-1,
+.sub-box-2,
+.sub-box-3 {
+  width: 100px;
+  height: 100px;
+
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .sub-box-1 {
   background-image: url("images-img/Branding.png");
-  background-position: center;
-  background-size: contain;
-  /* background-color: aqua; */
-  height: 100px;
-  width: 100px;
-}
-
-.sub-box-text-1 {
-    color: black;
-    text-align: center;
-     /* background-color: aqua; */
-     height: 100px;
 }
 
 .sub-box-2 {
-    background-image: url("images-img/Print\ Design.png");
-  background-position: center;
-  background-size: contain;
-  /* background-color: aqua; */
-  height: 100px;
-  width: 100px;
-}
-
-.sub-box-text-2 {
-    color: black;
-    text-align: center;
-     /* background-color: aqua; */
-     height: 100px;
+  background-image: url("images-img/Print Design.png");
 }
 
 .sub-box-3 {
-      background-image: url("images-img/brochure.png");
-  background-position: center;
-  background-size: contain;
-  /* background-color: aqua; */
-  height: 100px;
-  width: 100px;
+  background-image: url("images-img/brochure.png");
 }
 
+.sub-box-text-1,
+.sub-box-text-2,
 .sub-box-text-3 {
-    color: black;
-    text-align: center;
-     /* background-color: aqua; */
-     height: 100px;
+  color: black;
+  margin-top: 20px;
 }
+
+.sub-box-text-1 p:first-child,
+.sub-box-text-2 p:first-child,
+.sub-box-text-3 p:first-child {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+/* CTA */
 
 .Ready-to-Work {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: #fbc104;
-    color: white;
+  background-color: #fbc104;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  min-height: 300px;
+
+  padding: 20px;
 }
 
 .Ready {
   color: #0e0e0e;
-    margin: 0px;
-    font-size: 40px;
-    font-weight: 600;
+  font-size: 45px;
+  font-weight: 600;
 }
 
 .collaborate {
   color: #0e0e0e;
+  margin-top: 15px;
 }
 
 .btn-Get-in-Touch {
-  margin: 15px 0px 0px 0px;
+  margin-top: 25px;
+
   background-color: black;
-  color: #ffffff;
-  padding: 20px 30px 20px 30px;
+  color: white;
+
+  padding: 18px 30px;
+
   border-radius: 10px;
-  border: 0px;
+  border: 0;
+
   font-weight: 600;
+  cursor: pointer;
 }
+
+/* FOOTER */
 
 footer {
-   background-color: #0e0e0e;
-    line-height: 40px;
-    color: white;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    height: 200px;
-}
+  background-color: #0e0e0e;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  min-height: 200px;
+
+  padding: 20px;
+}
 
 .Copyright {
- opacity: 0.5;
+  color: white;
+  opacity: 0.5;
+  line-height: 30px;
 }
 
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+@media (max-width: 992px) {
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .top-bar {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .section-1 {
+    background-position: bottom center;
+    background-size: 300px;
+
+    padding-top: 50px;
+    padding-bottom: 320px;
+
+    align-items: flex-start;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+
+  .Ready {
+    font-size: 35px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .top-bar,
+  .section-1,
+  .section-2,
+  .grid-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .Ready {
+    font-size: 28px;
+  }
+
+  .meaningful,
+  .beautiful,
+  .collaborate {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .btn-VIEW-MY-WORK,
+  .btn-Get-in-Touch {
+    width: 100%;
+  }
+
+}
