@@ -1,11 +1,12 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background-color: #0e0e0e; */
   color: #fbc104;
 }
 
@@ -17,15 +18,11 @@ body {
 
 .top-bar {
   position: sticky;
-  top: 0;
-  z-index: 1000;
-
+  top: 0px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  padding: 20px 30px;
-
+  padding: 5px 30px 0px 30px;
   background-color: #0e0e0e;
 }
 
@@ -52,28 +49,23 @@ a {
 
 .btn-Hire-me {
   background-color: #fbc104;
-  padding: 8px 14px;
+  padding: 5px 10px 5px 10px;
   border-radius: 5px;
-  border: 0;
-  cursor: pointer;
-  font-weight: 600;
+  border: 0px;
 }
 
 /* HERO SECTION */
 
 .section-1 {
+  background-color: #0e0e0e;
   display: flex;
   align-items: center;
-
-  min-height: 100vh;
-
-  padding: 0 30px;
-
-  background-color: #0e0e0e;
-
-  background-image: url("images-img/Male Character Vector Illustration.png");
+  margin: 50px 0px 0px 0px;
+  padding: 0px 0px 0px 30px;
+  height: 500px;
+  background-image: url("images-img/Male\ Character\ Vector\ Illustration.png");
   background-size: contain;
-  background-position: right center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 
@@ -83,34 +75,29 @@ a {
 
 .Hello {
   color: #fbc104;
-  font-size: 12px;
-  letter-spacing: 1px;
+  font-size: 10px;
 }
 
 h1 {
   font-family: Times, "Times New Roman", serif;
-  font-size: 60px;
-  line-height: 1.1;
+  font-size: 40px;
   color: white;
 
-  margin: 15px 0;
+  margin-top: -1px;
 }
 
 .meaningful {
   color: white;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
 }
 
 .btn-VIEW-MY-WORK {
-  margin-top: 25px;
-
+  margin: 15px 0px 0px 0px;
   background-color: #fbc104;
-
-  padding: 14px 22px;
-
-  border: 0;
-
+  padding: 10px 10px 10px 10px;
+  /* border-radius: 10px; */
+  border: 0px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -120,11 +107,9 @@ h1 {
 .section-2 {
   display: flex;
   align-items: center;
-
-  min-height: 350px;
-
-  padding: 50px 30px;
-
+  padding: 50px 0px 0px 30px;
+  height: 300px;
+  color: black;
   background-color: white;
   color: black;
 }
@@ -137,13 +122,12 @@ h1 {
 
 h2 {
   font-family: Times, "Times New Roman", serif;
-  font-size: 45px;
-  margin-bottom: 20px;
+  font-size: 35px;
 }
 
 .beautiful {
-  font-size: 16px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 /* GRID */
@@ -151,15 +135,15 @@ h2 {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
-  gap: 20px;
-
-  padding: 0 30px 50px;
-
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 30px 0px 30px;
+  gap: 10px;
+  height: 300px;
+  margin-bottom: 50px;
 }
 
 .box {
+  border-radius: 10px;
   border: 2px solid #0e0e0e;
   border-radius: 10px;
 
@@ -167,48 +151,62 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  padding: 30px 20px;
-
-  text-align: center;
-}
-
-.sub-box-1,
-.sub-box-2,
-.sub-box-3 {
-  width: 100px;
-  height: 100px;
-
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+  gap: 40px;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 50px 0px 0px 0px; */
+  /* background-color: #fbc104; */
+  color: rgb(255, 255, 255);
 }
 
 .sub-box-1 {
   background-image: url("images-img/Branding.png");
+  background-position: center;
+  background-size: contain;
+  /* background-color: aqua; */
+  height: 100px;
+  width: 100px;
+}
+
+.sub-box-text-1 {
+  color: black;
+  text-align: center;
+  /* background-color: aqua; */
+  height: 100px;
 }
 
 .sub-box-2 {
-  background-image: url("images-img/Print Design.png");
+  background-image: url("images-img/Print\ Design.png");
+  background-position: center;
+  background-size: contain;
+  /* background-color: aqua; */
+  height: 100px;
+  width: 100px;
+}
+
+.sub-box-text-2 {
+  color: black;
+  text-align: center;
+  /* background-color: aqua; */
+  height: 100px;
 }
 
 .sub-box-3 {
   background-image: url("images-img/brochure.png");
+  background-position: center;
+  background-size: contain;
+  /* background-color: aqua; */
+  height: 100px;
+  width: 100px;
 }
 
 .sub-box-text-1,
 .sub-box-text-2,
 .sub-box-text-3 {
   color: black;
-  margin-top: 20px;
-}
-
-.sub-box-text-1 p:first-child,
-.sub-box-text-2 p:first-child,
-.sub-box-text-3 p:first-child {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
+  text-align: center;
+  /* background-color: aqua; */
+  height: 100px;
 }
 
 /* CTA */
@@ -220,17 +218,15 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  text-align: center;
-
-  min-height: 300px;
-
-  padding: 20px;
+  height: 200px;
+  background-color: #fbc104;
+  color: white;
 }
 
 .Ready {
   color: #0e0e0e;
-  font-size: 45px;
+  margin: 0px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -240,16 +236,12 @@ h2 {
 }
 
 .btn-Get-in-Touch {
-  margin-top: 25px;
-
+  margin: 15px 0px 0px 0px;
   background-color: black;
-  color: white;
-
-  padding: 18px 30px;
-
+  color: #ffffff;
+  padding: 20px 30px 20px 30px;
   border-radius: 10px;
-  border: 0;
-
+  border: 0px;
   font-weight: 600;
   cursor: pointer;
 }
@@ -258,113 +250,18 @@ h2 {
 
 footer {
   background-color: #0e0e0e;
-
+  line-height: 40px;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 
   text-align: center;
-
-  min-height: 200px;
-
-  padding: 20px;
+  justify-content: center;
+  height: 200px;
 }
 
 .Copyright {
   color: white;
   opacity: 0.5;
-  line-height: 30px;
-}
-
-/* ========================= */
-/* RESPONSIVE DESIGN */
-/* ========================= */
-
-@media (max-width: 992px) {
-
-  h1 {
-    font-size: 48px;
-  }
-
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
-
-@media (max-width: 768px) {
-
-  .top-bar {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .navbar {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .section-1 {
-    background-position: bottom center;
-    background-size: 300px;
-
-    padding-top: 50px;
-    padding-bottom: 320px;
-
-    align-items: flex-start;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-
-  h2 {
-    font-size: 35px;
-  }
-
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-
-  .Ready {
-    font-size: 35px;
-  }
-
-}
-
-@media (max-width: 480px) {
-
-  .top-bar,
-  .section-1,
-  .section-2,
-  .grid-container {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  h1 {
-    font-size: 32px;
-  }
-
-  h2 {
-    font-size: 28px;
-  }
-
-  .Ready {
-    font-size: 28px;
-  }
-
-  .meaningful,
-  .beautiful,
-  .collaborate {
-    font-size: 14px;
-    line-height: 24px;
-  }
-
-  .btn-VIEW-MY-WORK,
-  .btn-Get-in-Touch {
-    width: 100%;
-  }
-
 }
