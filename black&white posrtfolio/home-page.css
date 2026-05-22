@@ -1,5 +1,5 @@
 /* GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap");
 
 body {
   margin: 0px;
@@ -65,6 +65,8 @@ a:hover {
 .btn-Hire-me:hover {
   background-color: white;
   color: black;
+   box-shadow: 0px 0px 10px #fbc104;
+   transform: translateY(-8px);
 }
 
 /* HERO SECTION */
@@ -121,6 +123,8 @@ h1 {
 .btn-VIEW-MY-WORK:hover {
   background-color: white;
   color: black;
+  transform: translateY(-8px);
+  box-shadow: 0px 0px 10px #fbc104;
 }
 
 /* SECTION 2 */
@@ -185,7 +189,7 @@ h2 {
   border: 0px;
   transform: translateY(-8px);
  
-    box-shadow: 0px 10px 30px #fbc104;
+    box-shadow: 0px 0px 10px #fbc104;
 }
 
 .sub-box-1 {
@@ -280,6 +284,8 @@ h2 {
 .btn-Get-in-Touch:hover {
   background-color: white;
   color: black;
+  transform: translateY(-8px);
+  box-shadow: 0px 0px 10px #0e0e0e;
 }
 
 /* FOOTER */
